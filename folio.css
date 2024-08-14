@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h1{
+    font-size: 30px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+    nav ul li{
+        list-style: none;
+}
+    nav ul li a{
+        text-decoration: none; 
+        color: white;
+}
+nav button{
+    padding: 5px;
+}
+.sectionA{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    /* background-color: red; */
+}
+.containerA {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstA{
+    width: 600px ;
+    height: 500px;
+    /* background-color: red; */
+    color: white;
+}
+.firstA h1{
+    font-size: 50px;
+}
+.firstA p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.firstA button{
+    width: 100px;
+    height: 40px;
+    margin-top: 40px; 
+    border: 1px solid;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.firstB{
+    width: 600px;
+    height: 500px;
+}
+.firstB img{
+    width: 100%;
+    height: 100%;
+     object-fit: cover; 
+}
+
+
+.sectionB{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    /* background-color: red; */
+}
+.containerB {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.textwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    gap: 20px;
+    background-color: black;
+    border-radius: 50px;
+}
+.textwrapper div{
+    background-color: white; 
+    width: 400px; 
+    position: relative; 
+    /* left: 30px;  */
+    padding: 10px; 
+    border-radius: 10px; 
+    /* top: 50px; */
+}
+.content{
+    width: 600px;
+    height: 500px;
+    /* background-color: red; */
+    color: white;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 70px;
+}
+.content button{
+    width: 100px;
+    height: 40px;
+    margin-top: 40px; 
+    background-color: black;
+    border: none;
+    color: white;
+}
+ol{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.all h1{
+    text-align: center;
+    color: white;
+}
+.image div{
+    width: 400px;
+}
+.image div img{
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    display: block;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionc{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    /* background-color: red; */
+}
+
+.containerc {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.lastsection{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+}
+.content2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+@media (max-width: 768px){
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav h1{
+        font-size: 30px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+        nav ul li{
+            list-style: none;
+    }
+        nav ul li a{
+            text-decoration: none; 
+            color: white;
+    }
+    nav button{
+        padding: 5px;
+    }
+    .sectionA{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 80px;
+        /* background-color: red; */
+    }
+    .containerA {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .firstA{
+        width: 600px ;
+        height: 500px;
+        /* background-color: red; */
+        color: white;
+    }
+    .firstA h1{
+        font-size: 50px;
+    }
+    .firstA p{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .firstA button{
+        width: 100px;
+        height: 40px;
+        margin-top: 40px; 
+        border: 1px solid;
+        background-color: transparent;
+        color: white;
+        border-color: white;
+    }
+    .firstB{
+        width: 600px;
+        height: 500px;
+    }
+    .firstB img{
+        width: 100%;
+        height: 100%;
+         object-fit: cover; 
+    }
+    
+    
+    .sectionB{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 80px;
+        /* background-color: red; */
+    }
+    .containerB {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+    }
+    .textwrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 500px;
+        gap: 20px;
+        background-color: black;
+        border-radius: 50px;
+    }
+    .textwrapper div{
+        background-color: white; 
+        width: 400px; 
+        position: relative; 
+        /* left: 30px;  */
+        padding: 10px; 
+        border-radius: 10px; 
+        /* top: 50px; */
+    }
+    .content{
+        width: 600px;
+        height: 500px;
+        /* background-color: red; */
+        color: white;
+        text-align: center;
+    }
+    .content h1{
+        font-size: 50px;
+        margin-top: 70px;
+    }
+    .content button{
+        width: 100px;
+        height: 40px;
+        margin-top: 40px; 
+        background-color: black;
+        border: none;
+        color: white;
+    }
+    ol{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+    .all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .all h1{
+        text-align: center;
+        color: white;
+    }
+    .image div{
+        width: 200px;
+    }
+    .image div img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .content{
+        display: block;
+        justify-content: center;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sectionc{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 80px;
+        /* background-color: red; */
+    }
+    
+    .containerc {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+    }
+    .lastsection{
+        height: 100%;
+        width: 100%;
+        padding: 80px;
+    }
+    .content2{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    
+}
